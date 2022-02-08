@@ -1,0 +1,24 @@
+{
+  "include": ["src/**/*"],
+
+  "compilerOptions": {
+    "outDir": "build/",
+    "esModuleInterop": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": false,
+
+    "baseUrl": "/",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "es5",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "lib": ["esnext"]
+  }
+}
